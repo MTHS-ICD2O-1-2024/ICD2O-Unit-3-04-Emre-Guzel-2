@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="1066" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="766" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="60" width="847" height="602" as="geometry"/>
+                    <mxGeometry x="50" y="50" width="847" height="602" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Farhintie to celsius&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7">
                     <mxGeometry x="70" y="40" width="310" height="30" as="geometry"/>
@@ -20,13 +20,13 @@
                     <mxGeometry x="207.5" y="120" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7">
-                    <mxGeometry x="262.5" y="125" width="140" height="30" as="geometry"/>
+                    <mxGeometry x="262.5" y="120" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Fahrenheit&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="7">
-                    <mxGeometry x="82.5" y="90" width="90" height="40" as="geometry"/>
+                <mxCell id="20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;Enter the fahrenheit&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="62.5" y="90" width="127.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: wrap;&quot;&gt;Celsius&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
-                    <mxGeometry x="302.5" y="95" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="302.5" y="90" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="(32°F − 32) × 5/9 = 0°C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
                     <mxGeometry x="132.5" y="170" width="150" height="30" as="geometry"/>
