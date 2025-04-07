@@ -6,11 +6,12 @@
 
 "use strict"
 
-function volumeOfSphere() {
+function fahrenheitToCelsiusCalcualotr() {
   // Setting the varibles
-  const radiusOfTheSphere= parseFloat(document.getElementById("radius-of-the-sphere").value)
-  const volumeOfSphere = (4/3) * Math.PI * Math.pow(radiusOfTheSphere,3)
+  const fahrenheitValue= parseInt(document.getElementById("fahrenheit").value)
+  const celsiusInput= document.getElementById("celsius")
+  const celsiusValue = (fahrenheitValue - 32) * 5/9
   // clacualtoins
-  document.getElementById("Volume").innerHTML =
-  "Volume is: " + volumeOfSphere.toFixed(2)
+  celsiusInput.value =celsiusValue.toFixed(3)
+  document.getElementById("formula").innerHTML = "Formula: (" + fahrenheitValue + "-"+32+") X 5/9" 
 }

@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>volume of sphere</title>
+  <title>Fahrenheit to celsius calculator</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Fahrenheit to celsius calcultor </span>
+        <span class="mdl-layout-title">Fahrenheit to celsius calculator </span>
       </div>
     </header>
     <br>
@@ -39,26 +39,26 @@
     <form action="#">
     <div class="mdl-textfield mdl-js-textfield" id="base-a">
       <p class="Fahrenheit"> Fahrenheit:</p> 
-      <input  type="number"  id="celsius"  class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="Fahrenheit">
+      <input  type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="fahrenheit">
       <label class="mdl-textfield__label" for="base-a-of-trapizoid"></label>
       <span class="mdl-textfield__error">Input is not a number!</span>
     </div>
     <h5>=</h5>
     <div class="mdl-textfield mdl-js-textfield" id="base-a">
       <p class="celsius">Celsius:</p> 
-      <input type="number"   class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="Celsius">
+      <input type="number"   class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="celsius">
       <label class="mdl-textfield__label" for="base-a-of-trapizoid"></label>
       <span class="mdl-textfield__error">Input is not a number!</span>
     </div>
       <br>
       <main id="click-me " class="mdl-layout__content">
-        <button id="click" type="button" onclick="volumeOfSphere()"
+        <button id="click" type="button" onclick="fahrenheitToCelsiusCalcualotr()"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-          Enter
+          Calcualte the Celsius
         </button>
       </main>
     </form>
-    <p id="Volume">Volume is : </p>
+    <p id="formula">Formula : </p>
 
   </div>
   <br>
