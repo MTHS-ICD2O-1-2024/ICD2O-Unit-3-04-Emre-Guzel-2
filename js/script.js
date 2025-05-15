@@ -17,7 +17,7 @@ function fahrenheitToCelsiusCalcualotr() {
   localStorage.setItem("celsiusValue", celsiusValue)
 
   // clacualtoins
-  celsiusInput.value = celsiusValue.toFixed(3)
+  celsiusInput.value = celsiusValue.toFixed(2)
   document.getElementById("formula").innerHTML = "Formula: (" + fahrenheitValue + " - " + 32 + ") X 5/9"
 }
 
@@ -29,10 +29,7 @@ function showfahrenheit() {
   // check local stoge has a value 
   if (fahrenheitValue != null && celsiusValue != null) {
     document.getElementById("fahrenheit").value = fahrenheitValue
-    document.getElementById("celsius").value = parseFloat(celsiusValue).toFixed(3)
+    document.getElementById("celsius").value = parseFloat(celsiusValue).toFixed(2)
     document.getElementById("formula").innerHTML = "Formula: (" + fahrenheitValue + " - 32) X 5/9"
   }
-
-  // Optional: Remove this line or define cookieNumber if needed
-  // document.getElementById("result").innerHTML = "You have clicked " + (cookieNumber) + " times."
 }
